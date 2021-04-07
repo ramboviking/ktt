@@ -1,0 +1,74 @@
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  /* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+  .card-blue {
+      padding: 1rem;
+  }
+  .icon {
+      text-align: center;
+      margin: 2rem;
+  }
+
+/* News
+-------------------- */
+
+
+/* Call to action
+-------------------- */
+.as-cta-full-gradient {
+	background-color: #222;
+	background-image: linear-gradient(135deg, #444 0, #222 100%);
+}
+.as-cta-full-gradient .as-cta-desc h2,
+.as-cta-full-gradient .as-cta-desc p {
+	color: #fff;
+}
+@media (max-width: 767px) {
+	.as-cta-full-gradient {
+		text-align: center;
+	}
+	.as-cta-full-gradient .as-cta-btn {
+		margin-top: 20px;
+	}
+}
+
+/* Footer
+-------------------- */
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
